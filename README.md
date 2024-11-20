@@ -30,16 +30,21 @@ Follow the steps below to set up and run the project locally:
 git clone https://github.com/your_username/similar-game-recommendation.git
 cd similar-game-recommendation
 ```
+---
+**pip install -r requirements.txt**
+## Dataset
+**Place your dataset (e.g., games_dataset.csv) in the root directory.**
 
-**pip install -r requirements.txt
-##Dataset
-**Place your dataset (e.g., games_dataset.csv) in the root directory.
+**python train_model.py**
 
-**python train_model.py
+---
 
-**streamlit run app.py
+**streamlit run app.py**
 
-##project Structure
+---
+
+## project Structure
+
 similar-game-recommendation/
 │
 ├── dataset/                # Contains the dataset file
